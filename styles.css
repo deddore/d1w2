@@ -1,0 +1,103 @@
+body{
+    background:#1f1f1f;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:500px;
+    margin:20px auto;
+    background:white;
+    padding:40px;
+    border-bottom:8px solid #46b35f;
+    position:relative;
+}
+
+.close{
+    position:absolute;
+    top:20px;
+    right:20px;
+    color:#46b35f;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.tabs{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+.login{
+    color:#333;
+}
+
+.register{
+    color:#46b35f;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    font-size:16px;
+}
+
+.password-block{
+    position:relative;
+}
+
+.eye{
+    position:absolute;
+    right:15px;
+    top:15px;
+    color:#777;
+}
+
+button{
+    padding:15px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+form button{
+    background:#46b35f;
+    color:white;
+    font-weight:bold;
+}
+
+.divider{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:30px 0;
+}
+
+.divider span{
+    flex:1;
+    height:1px;
+    background:#ccc;
+}
+
+.google,
+.facebook{
+    width:100%;
+    background:white;
+    border:1px solid #ddd;
+    margin-bottom:15px;
+    color:#555;
+}
