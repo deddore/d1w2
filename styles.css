@@ -23,9 +23,12 @@ border-bottom: 1px solid  rgba(70, 163, 88, 0.50);
 margin-bottom: 12px;
 }   
 
-.menu {
-display: flex; 
+.menu{
+display: flex;
 gap: 50px;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 .menuItem {
     color: #3D3D3D; 
@@ -39,13 +42,20 @@ gap: 50px;
     border-color: #46A358
 }
 .headerBtn{
-    background: #46A358;
-    color:#fff;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 8px 17px;
+width: 100px;
+height: 35px;
+background: #46A358;
+border-radius: 6px;
+border: none;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+padding: 0;
 }
 
 .hero{
