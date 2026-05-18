@@ -65,8 +65,7 @@ padding: 0;
     background: linear-gradient(
         98deg,
         rgba(245, 245, 245, 0.50) -23.46%,
-        rgba(245, 245, 245, 0.50) 107.51%
-    );
+        rgba(245, 245, 245, 0.50) 107.51% );
 display: flex;
 justify-content: space-between;
 align-items: center;
