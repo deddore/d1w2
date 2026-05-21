@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -10,9 +11,8 @@ body{
 }
 
 .container{
-    width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .shop{
@@ -20,11 +20,11 @@ body{
     justify-content: space-between;
     align-items: flex-start;
 
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .sidebar{
-    width: 260px;
+    width: 250px;
     background: #FBFBFB;
 
     padding: 18px;
@@ -84,7 +84,6 @@ body{
 
 .sale img{
     width: 100%;
-    height: auto;
 
     display: block;
 
@@ -156,8 +155,8 @@ body{
 }
 
 .card-img img{
-    max-width: 190px;
-    max-height: 190px;
+    width: 170px;
+    height: 170px;
 
     object-fit: contain;
 
