@@ -8,30 +8,33 @@ body{
 }
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
 
     margin-left: auto;
     margin-right: auto;
 }
 
-
+/* SHOP */
 
 .shop{
     display: flex;
 
-    gap: 50px;
+    justify-content: space-between;
 
-    padding-top: 40px;
+    gap: 30px;
+
+    padding-top: 30px;
 }
 
-
+/* SIDEBAR */
 
 .sidebar{
-    width: 310px;
+    width: 250px;
 
     background: #FBFBFB;
 
-    padding: 20px;
+    padding: 18px;
 }
 
 .sidebar h3{
@@ -47,7 +50,7 @@ body{
 }
 
 .categories li{
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .categories a{
@@ -64,24 +67,24 @@ body{
     font-weight: 700;
 }
 
-
+/* SALE */
 
 .sale{
-    margin-top: 35px;
+    margin-top: 30px;
 
     text-align: center;
 }
 
 .sale h2{
-    font-size: 48px;
-
-    color: #46A358;
+    font-size: 42px;
 
     font-weight: 700;
+
+    color: #46A358;
 }
 
 .sale p{
-    font-size: 24px;
+    font-size: 20px;
 
     font-weight: 700;
 
@@ -93,18 +96,18 @@ body{
 .sale img{
     width: 100%;
 
-    display: block;
+    margin-top: 15px;
 
-    margin-top: 20px;
+    display: block;
 }
 
-
+/* PRODUCTS */
 
 .products{
-    width: 100%;
+    width: 850px;
 }
 
-
+/* TOP */
 
 .products-top{
     display: flex;
@@ -113,13 +116,13 @@ body{
 
     align-items: center;
 
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .tabs{
     display: flex;
 
-    gap: 35px;
+    gap: 30px;
 }
 
 .tabs a{
@@ -137,7 +140,7 @@ body{
 
     border-bottom: 2px solid #46A358;
 
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 
 .sort{
@@ -146,34 +149,40 @@ body{
     color: #3D3D3D;
 }
 
+/* CARDS */
 
 .cards{
     display: grid;
 
-    grid-template-columns: repeat(3, 258px);
+    grid-template-columns: repeat(3, 250px);
 
     justify-content: space-between;
 
-    row-gap: 70px;
+    row-gap: 40px;
 }
 
 .card{
-    width: 258px;
+    width: 250px;
+}
+
+.card-img{
+    width: 250px;
+
+    height: 250px;
+
+    background: #FBFBFB;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 }
 
 .card-img img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 180px;
 
-    object-fit: contain;
-
-    display: block;
-}
-
-.card-img img{
-    width: 220px;
-
-    height: 220px;
+    max-height: 180px;
 
     object-fit: contain;
 
@@ -193,25 +202,25 @@ body{
 .card span{
     display: block;
 
-    margin-top: 6px;
+    margin-top: 5px;
+
+    color: #46A358;
 
     font-size: 18px;
 
     font-weight: 700;
-
-    color: #46A358;
 }
+
+/* PAGINATION */
 
 .pagination{
     display: flex;
 
     justify-content: flex-end;
 
-    align-items: center;
-
     gap: 10px;
 
-    margin-top: 90px;
+    margin-top: 45px;
 }
 
 .pagination a{
