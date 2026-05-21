@@ -1,4 +1,5 @@
 *{
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,40 +9,29 @@ body{
 }
 
 .container{
-    max-width: 1200px;
-    width: 100%;
-
-    margin-left: auto;
-    margin-right: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* SHOP */
 
 .shop{
     display: flex;
-
     justify-content: space-between;
-
-    gap: 30px;
-
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 /* SIDEBAR */
 
 .sidebar{
     width: 250px;
-
     background: #FBFBFB;
-
     padding: 18px;
 }
 
 .sidebar h3{
     font-size: 18px;
-
     color: #3D3D3D;
-
     margin-bottom: 25px;
 }
 
@@ -55,15 +45,12 @@ body{
 
 .categories a{
     text-decoration: none;
-
     color: #3D3D3D;
-
     font-size: 15px;
 }
 
 .categories a.active{
     color: #46A358;
-
     font-weight: 700;
 }
 
@@ -71,94 +58,71 @@ body{
 
 .sale{
     margin-top: 30px;
-
     text-align: center;
 }
 
 .sale h2{
     font-size: 42px;
-
-    font-weight: 700;
-
+    line-height: 42px;
     color: #46A358;
+    font-weight: 700;
 }
 
 .sale p{
     font-size: 20px;
-
     font-weight: 700;
-
-    color: #3D3D3D;
-
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .sale img{
     width: 100%;
-
-    margin-top: 15px;
-
     display: block;
+    margin-top: 15px;
 }
 
 /* PRODUCTS */
 
 .products{
-    width: 850px;
+    width: 840px;
 }
 
 /* TOP */
 
 .products-top{
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .tabs{
     display: flex;
-
-    gap: 30px;
+    gap: 35px;
 }
 
 .tabs a{
     text-decoration: none;
-
     color: #3D3D3D;
-
     font-size: 15px;
 }
 
 .tabs a.active{
     color: #46A358;
-
     font-weight: 700;
-
     border-bottom: 2px solid #46A358;
-
     padding-bottom: 5px;
 }
 
 .sort{
     font-size: 15px;
-
-    color: #3D3D3D;
 }
 
 /* CARDS */
 
 .cards{
     display: grid;
-
     grid-template-columns: repeat(3, 250px);
-
-    justify-content: space-between;
-
-    row-gap: 40px;
+    gap: 40px 20px;
 }
 
 .card{
@@ -167,47 +131,32 @@ body{
 
 .card-img{
     width: 250px;
-
     height: 250px;
-
     background: #FBFBFB;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 }
 
 .card-img img{
-    max-width: 180px;
-
-    max-height: 180px;
-
+    width: 180px;
+    height: 180px;
     object-fit: contain;
-
-    display: block;
 }
 
 .card h4{
-    margin-top: 12px;
-
     font-size: 16px;
-
-    font-weight: 400;
-
     color: #3D3D3D;
+    font-weight: 400;
+    margin-top: 12px;
 }
 
 .card span{
     display: block;
-
     margin-top: 5px;
-
     color: #46A358;
-
     font-size: 18px;
-
     font-weight: 700;
 }
 
@@ -215,38 +164,27 @@ body{
 
 .pagination{
     display: flex;
-
     justify-content: flex-end;
-
     gap: 10px;
-
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .pagination a{
     width: 35px;
-
     height: 35px;
-
     border: 1px solid #E5E5E5;
-
     border-radius: 4px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 
     text-decoration: none;
-
     color: #3D3D3D;
 }
 
 .pagination a.active{
     background: #46A358;
-
     border-color: #46A358;
-
     color: #fff;
 }
