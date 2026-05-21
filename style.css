@@ -11,7 +11,8 @@ body{
 
 .container{
     width: 1200px;
-    margin: 0 auto;
+
+    margin-left: 120px;
 }
 
 
@@ -90,13 +91,13 @@ body{
 }
 
 .products{
-    width: 920px;
+    width: 900px;
 
     display: inline-block;
 
     vertical-align: top;
 
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .products-top{
@@ -137,6 +138,8 @@ body{
 
 .cards{
     font-size: 0;
+
+    width: 900px;
 }
 
 .card{
