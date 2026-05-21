@@ -5,33 +5,35 @@
 }
 
 body{
-    font-family: sans-serif;
-    background: #fff;
+    font-family: 'Cera Pro', sans-serif;
+    background: #FFFFFF;
 }
 
 .container{
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .shop{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-
     padding-top: 40px;
 }
 
 .sidebar{
-    width: 260px;
+    width: 250px;
+
     background: #FBFBFB;
 
     padding: 18px;
+
+    display: inline-block;
+
+    vertical-align: top;
 }
 
 .sidebar h3{
     font-size: 18px;
+    font-weight: 700;
+
     color: #3D3D3D;
 
     margin-bottom: 20px;
@@ -47,9 +49,11 @@ body{
 
 .categories a{
     text-decoration: none;
-    color: #3D3D3D;
 
     font-size: 15px;
+    font-weight: 400;
+
+    color: #3D3D3D;
 }
 
 .categories a.active{
@@ -59,61 +63,65 @@ body{
 
 .sale{
     margin-top: 30px;
+
     text-align: center;
 }
 
 .sale h2{
     font-size: 46px;
+    font-weight: 700;
+
     line-height: 46px;
 
     color: #46A358;
-
-    font-weight: 700;
 }
 
 .sale p{
-    margin-top: 5px;
-
     font-size: 20px;
-
     font-weight: 700;
 
     color: #3D3D3D;
+
+    margin-top: 5px;
 }
 
 .sale img{
     width: 100%;
-    display: block;
 
     margin-top: 15px;
 }
 
 .products{
-    width: 840px;
+    width: 920px;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    margin-left: 25px;
 }
 
 .products-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     margin-bottom: 35px;
 }
 
 .tabs{
-    display: flex;
-    gap: 35px;
+    display: inline-block;
 }
 
 .tabs a{
     text-decoration: none;
-    color: #3D3D3D;
 
     font-size: 15px;
+
+    color: #3D3D3D;
+
+    margin-right: 35px;
 }
 
 .tabs a.active{
     color: #46A358;
+
     font-weight: 700;
 
     border-bottom: 2px solid #46A358;
@@ -122,49 +130,57 @@ body{
 }
 
 .sort{
+    float: right;
+
     font-size: 15px;
+
     color: #3D3D3D;
 }
 
 .cards{
-    display: grid;
-
-    grid-template-columns: repeat(3, 258px);
-
-    column-gap: 30px;
-    row-gap: 45px;
+    font-size: 0;
 }
 
 .card{
     width: 258px;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.card:nth-child(3n){
+    margin-right: 0;
 }
 
 .card-img{
-    width: 258px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 
     background: #FBFBFB;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+
+    line-height: 250px;
 }
 
 .card-img img{
-    width: 190px;
-    height: 190px;
+    max-width: 190px;
+    max-height: 190px;
 
-    object-fit: contain;
+    vertical-align: middle;
 }
 
 .card h4{
-    margin-top: 12px;
-
     font-size: 16px;
-
     font-weight: 400;
 
     color: #3D3D3D;
+
+    margin-top: 12px;
 }
 
 .card span{
@@ -172,41 +188,43 @@ body{
 
     margin-top: 6px;
 
-    color: #46A358;
-
     font-size: 18px;
-
     font-weight: 700;
+
+    color: #46A358;
 }
 
 .pagination{
-    display: flex;
-    justify-content: flex-end;
-
-    gap: 10px;
-
-    margin-top: 50px;
+    text-align: right;
 }
 
 .pagination a{
     width: 35px;
     height: 35px;
 
-    border: 1px solid #E5E5E5;
-    border-radius: 4px;
+    display: inline-block;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 35px;
+
+    text-align: center;
 
     text-decoration: none;
+
+    border: 1px solid #E5E5E5;
+
+    border-radius: 4px;
+
+    margin-left: 10px;
+
+    font-size: 16px;
 
     color: #3D3D3D;
 }
 
 .pagination a.active{
     background: #46A358;
+
     border-color: #46A358;
 
-    color: #fff;
+    color: #FFFFFF;
 }
