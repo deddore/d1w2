@@ -1,6 +1,4 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -9,31 +7,35 @@ body{
     background: #fff;
 }
 
+/* CONTAINER */
+
 .container{
     width: 1200px;
 }
 
-
+/* SHOP */
 
 .shop{
     display: flex;
+
     gap: 50px;
 
-    padding-top: 45px;
+    padding-top: 40px;
 }
 
-
+/* SIDEBAR */
 
 .sidebar{
     width: 310px;
 
     background: #FBFBFB;
 
-    padding: 20px 18px;
+    padding: 20px;
 }
 
 .sidebar h3{
     font-size: 18px;
+
     color: #3D3D3D;
 
     margin-bottom: 25px;
@@ -61,24 +63,24 @@ body{
     font-weight: 700;
 }
 
-
+/* SALE */
 
 .sale{
-    margin-top: 40px;
+    margin-top: 35px;
 
     text-align: center;
 }
 
 .sale h2{
-    color: #46A358;
+    font-size: 48px;
 
-    font-size: 42px;
+    color: #46A358;
 
     font-weight: 700;
 }
 
 .sale p{
-    font-size: 22px;
+    font-size: 24px;
 
     font-weight: 700;
 
@@ -90,16 +92,18 @@ body{
 .sale img{
     width: 100%;
 
+    display: block;
+
     margin-top: 20px;
 }
 
-
+/* RIGHT */
 
 .products{
     flex: 1;
 }
 
-
+/* TOP */
 
 .products-top{
     display: flex;
@@ -132,7 +136,7 @@ body{
 
     border-bottom: 2px solid #46A358;
 
-    padding-bottom: 5px;
+    padding-bottom: 6px;
 }
 
 .sort{
@@ -141,7 +145,7 @@ body{
     color: #3D3D3D;
 }
 
-
+/* CARDS */
 
 .cards{
     display: grid;
@@ -149,6 +153,10 @@ body{
     grid-template-columns: repeat(3, 258px);
 
     gap: 70px 33px;
+}
+
+.card{
+    width: 258px;
 }
 
 .card-img{
@@ -168,7 +176,11 @@ body{
 .card-img img{
     width: 220px;
 
+    height: 220px;
+
     object-fit: contain;
+
+    display: block;
 }
 
 .card h4{
@@ -176,9 +188,9 @@ body{
 
     font-size: 16px;
 
-    color: #3D3D3D;
-
     font-weight: 400;
+
+    color: #3D3D3D;
 }
 
 .card span{
@@ -186,14 +198,14 @@ body{
 
     margin-top: 6px;
 
-    color: #46A358;
-
     font-size: 18px;
 
     font-weight: 700;
+
+    color: #46A358;
 }
 
-
+/* PAGINATION */
 
 .pagination{
     display: flex;
