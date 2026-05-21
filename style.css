@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.container{
+    width: 1200px;
+}
+
+
+
+.shop{
+    display: flex;
+    gap: 50px;
+
+    padding-top: 45px;
+}
+
+
+
+.sidebar{
+    width: 310px;
+
+    background: #FBFBFB;
+
+    padding: 20px 18px;
+}
+
+.sidebar h3{
+    font-size: 18px;
+    color: #3D3D3D;
+
+    margin-bottom: 25px;
+}
+
+.categories{
+    list-style: none;
+}
+
+.categories li{
+    margin-bottom: 18px;
+}
+
+.categories a{
+    text-decoration: none;
+
+    color: #3D3D3D;
+
+    font-size: 15px;
+}
+
+.categories a.active{
+    color: #46A358;
+
+    font-weight: 700;
+}
+
+
+
+.sale{
+    margin-top: 40px;
+
+    text-align: center;
+}
+
+.sale h2{
+    color: #46A358;
+
+    font-size: 42px;
+
+    font-weight: 700;
+}
+
+.sale p{
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #3D3D3D;
+
+    margin-top: 5px;
+}
+
+.sale img{
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+
+
+.products{
+    flex: 1;
+}
+
+
+
+.products-top{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 35px;
+}
+
+.tabs{
+    display: flex;
+
+    gap: 35px;
+}
+
+.tabs a{
+    text-decoration: none;
+
+    color: #3D3D3D;
+
+    font-size: 15px;
+}
+
+.tabs a.active{
+    color: #46A358;
+
+    font-weight: 700;
+
+    border-bottom: 2px solid #46A358;
+
+    padding-bottom: 5px;
+}
+
+.sort{
+    font-size: 15px;
+
+    color: #3D3D3D;
+}
+
+
+
+.cards{
+    display: grid;
+
+    grid-template-columns: repeat(3, 258px);
+
+    gap: 70px 33px;
+}
+
+.card-img{
+    width: 258px;
+
+    height: 300px;
+
+    background: #FBFBFB;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.card-img img{
+    width: 220px;
+
+    object-fit: contain;
+}
+
+.card h4{
+    margin-top: 12px;
+
+    font-size: 16px;
+
+    color: #3D3D3D;
+
+    font-weight: 400;
+}
+
+.card span{
+    display: block;
+
+    margin-top: 6px;
+
+    color: #46A358;
+
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+
+
+.pagination{
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    margin-top: 60px;
+}
+
+.pagination a{
+    width: 35px;
+
+    height: 35px;
+
+    border: 1px solid #E5E5E5;
+
+    border-radius: 4px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    color: #3D3D3D;
+}
+
+.pagination a.active{
+    background: #46A358;
+
+    border-color: #46A358;
+
+    color: #fff;
+}
