@@ -7,24 +7,24 @@
 body{
     font-family: sans-serif;
     background: #fff;
-    overflow-x: hidden;
 }
 
 .container{
     width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shop{
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    justify-content: space-between;
 
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .sidebar{
-    width: 250px;
+    width: 260px;
     background: #FBFBFB;
 
     padding: 18px;
@@ -42,7 +42,7 @@ body{
 }
 
 .categories li{
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 
 .categories a{
@@ -58,14 +58,13 @@ body{
 }
 
 .sale{
-    margin-top: 25px;
-
+    margin-top: 30px;
     text-align: center;
 }
 
 .sale h2{
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 46px;
+    line-height: 46px;
 
     color: #46A358;
 
@@ -84,14 +83,13 @@ body{
 
 .sale img{
     width: 100%;
-
     display: block;
 
     margin-top: 15px;
 }
 
 .products{
-    width: 880px;
+    width: 840px;
 }
 
 .products-top{
@@ -99,12 +97,12 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .tabs{
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 .tabs a{
@@ -116,7 +114,6 @@ body{
 
 .tabs a.active{
     color: #46A358;
-
     font-weight: 700;
 
     border-bottom: 2px solid #46A358;
@@ -132,20 +129,19 @@ body{
 .cards{
     display: grid;
 
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 258px);
 
-    justify-content: space-between;
-
-    row-gap: 30px;
+    column-gap: 30px;
+    row-gap: 45px;
 }
 
 .card{
-    width: 250px;
+    width: 258px;
 }
 
 .card-img{
-    width: 250px;
-    height: 250px;
+    width: 258px;
+    height: 300px;
 
     background: #FBFBFB;
 
@@ -155,12 +151,10 @@ body{
 }
 
 .card-img img{
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
 
     object-fit: contain;
-
-    display: block;
 }
 
 .card h4{
@@ -176,23 +170,22 @@ body{
 .card span{
     display: block;
 
-    margin-top: 5px;
+    margin-top: 6px;
+
+    color: #46A358;
 
     font-size: 18px;
 
     font-weight: 700;
-
-    color: #46A358;
 }
 
 .pagination{
     display: flex;
-
     justify-content: flex-end;
 
     gap: 10px;
 
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .pagination a{
