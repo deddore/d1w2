@@ -6,29 +6,25 @@
 body{
     font-family: sans-serif;
     background: #fff;
+    overflow-x: hidden;
 }
 
 .container{
-    width: 100%;
-    max-width: 1440px;
-
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shop{
     display: flex;
-
     justify-content: space-between;
-
     align-items: flex-start;
 
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .sidebar{
-    width: 250px;
-
+    width: 260px;
     background: #FBFBFB;
 
     padding: 18px;
@@ -36,10 +32,9 @@ body{
 
 .sidebar h3{
     font-size: 18px;
-
     color: #3D3D3D;
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .categories{
@@ -47,12 +42,11 @@ body{
 }
 
 .categories li{
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .categories a{
     text-decoration: none;
-
     color: #3D3D3D;
 
     font-size: 15px;
@@ -60,19 +54,17 @@ body{
 
 .categories a.active{
     color: #46A358;
-
     font-weight: 700;
 }
 
 .sale{
-    margin-top: 30px;
+    margin-top: 25px;
 
     text-align: center;
 }
 
 .sale h2{
     font-size: 42px;
-
     line-height: 42px;
 
     color: #46A358;
@@ -81,15 +73,18 @@ body{
 }
 
 .sale p{
+    margin-top: 5px;
+
     font-size: 20px;
 
     font-weight: 700;
 
-    margin-top: 8px;
+    color: #3D3D3D;
 }
 
 .sale img{
     width: 100%;
+    height: auto;
 
     display: block;
 
@@ -97,28 +92,24 @@ body{
 }
 
 .products{
-    width: 840px;
+    width: 880px;
 }
 
 .products-top{
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
 
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .tabs{
     display: flex;
-
-    gap: 35px;
+    gap: 30px;
 }
 
 .tabs a{
     text-decoration: none;
-
     color: #3D3D3D;
 
     font-size: 15px;
@@ -136,6 +127,7 @@ body{
 
 .sort{
     font-size: 15px;
+    color: #3D3D3D;
 }
 
 .cards{
@@ -145,7 +137,7 @@ body{
 
     justify-content: space-between;
 
-    gap: 40px 20px;
+    row-gap: 30px;
 }
 
 .card{
@@ -154,34 +146,32 @@ body{
 
 .card-img{
     width: 250px;
-
     height: 250px;
 
     background: #FBFBFB;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 }
 
 .card-img img{
-    width: 180px;
-
-    height: 180px;
+    max-width: 190px;
+    max-height: 190px;
 
     object-fit: contain;
+
+    display: block;
 }
 
 .card h4{
-    font-size: 16px;
+    margin-top: 12px;
 
-    color: #3D3D3D;
+    font-size: 16px;
 
     font-weight: 400;
 
-    margin-top: 12px;
+    color: #3D3D3D;
 }
 
 .card span{
@@ -189,11 +179,11 @@ body{
 
     margin-top: 5px;
 
-    color: #46A358;
-
     font-size: 18px;
 
     font-weight: 700;
+
+    color: #46A358;
 }
 
 .pagination{
@@ -203,22 +193,18 @@ body{
 
     gap: 10px;
 
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .pagination a{
     width: 35px;
-
     height: 35px;
 
     border: 1px solid #E5E5E5;
-
     border-radius: 4px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 
     text-decoration: none;
@@ -228,7 +214,6 @@ body{
 
 .pagination a.active{
     background: #46A358;
-
     border-color: #46A358;
 
     color: #fff;
