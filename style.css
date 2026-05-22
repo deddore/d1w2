@@ -112,7 +112,7 @@ display: inline-block;
 
     display: inline-block;
 
-    vertical-align: top;
+  
 
     margin-left: 25px;
 }
@@ -162,10 +162,8 @@ display: inline-block;
 
     display: inline-block;
 
-    vertical-align: top;
-
     margin-right: 30px;
-    margin-bottom: 50px;
+
 }
 
 .card:nth-child(3n){
