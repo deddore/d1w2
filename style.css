@@ -42,10 +42,7 @@ body{
     width: 250px;
 
     background: #FBFBFB;
-
-    padding: 18px;
-
-    display: inline-block;
+display: inline-block;
 
     vertical-align: top;
 }
