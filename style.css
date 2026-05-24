@@ -1,244 +1,202 @@
-@font-face{
-    font-family: 'Cera Pro';
-    src: url('./fonts/CeraPro-Regular.ttf');
-    font-weight: 400;
-}
-
-@font-face{
-    font-family: 'Cera Pro';
-    src: url('./fonts/CeraPro-Medium.ttf');
-    font-weight: 500;
-}
-
-@font-face{
-    font-family: 'Cera Pro';
-    src: url('./fonts/CeraPro-Bold.ttf');
-    font-weight: 700;
-}
-
-
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Cera Pro', sans-serif;
-    background: #FFFFFF;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    color: #3D3D3D;
 }
 
 .container{
-    width: 1200px;
-  
-}
-
-.shop{
+    max-width: 1200px;
+    margin: 0 auto;
     padding-top: 40px;
 }
 
-.sidebar{
-    width: 250px;
+/* ОСНОВА */
 
-    background: #FBFBFB;
-display: inline-block;
-
+.header{
+    font-size: 0;
 }
 
-.sidebar h3{
+/* SIDEBAR */
+
+.sidebar{
+    display: inline-block;
+    vertical-align: top;
+
+    background: #FBFBFB;
+
+    padding: 18px;
+
+    margin-right: 40px;
+}
+
+.categories h3{
     font-size: 18px;
     font-weight: 700;
 
-    color: #3D3D3D;
-
-    margin-bottom: 20px;
-}
-
-.categories{
-    list-style: none;
-}
-
-.categories li{
     margin-bottom: 15px;
 }
 
-.categories a{
-    text-decoration: none;
-
+.categories li{
     font-size: 15px;
-    font-weight: 400;
 
-    color: #3D3D3D;
+    margin-bottom: 15px;
+
+    list-style: none;
 }
 
-.categories a.active{
+.categories li:first-child{
     color: #46A358;
     font-weight: 700;
 }
 
-.sale{
+/* SALE */
+
+.sale-banner{
     margin-top: 30px;
 
     text-align: center;
 }
 
-.sale h2{
-    font-size: 46px;
-    font-weight: 700;
-
-    line-height: 46px;
+.sale-text h2{
+    font-size: 38px;
 
     color: #46A358;
+
+    margin-bottom: 8px;
 }
 
-.sale p{
-    font-size: 20px;
+.sale-text p{
+    font-size: 18px;
+
     font-weight: 700;
 
-    color: #3D3D3D;
-
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
-.sale img{
-    width: 100%;
-
-    margin-top: 15px;
+.sale-image img{
+    max-width: 220px;
 }
 
-.products{
-    width: 920px;
+/* MAIN */
 
+.main-content{
     display: inline-block;
+    vertical-align: top;
 
-  
-
-    margin-left: 25px;
+    max-width: 840px;
 }
 
-.products-top{
-    margin-bottom: 35px;
+/* TOP */
+
+.top-bar{
+    margin-bottom: 30px;
 }
 
-.tabs{
+.nav-tabs{
     display: inline-block;
 }
 
-.tabs a{
-    text-decoration: none;
+.tab{
+    display: inline-block;
 
     font-size: 15px;
 
-    color: #3D3D3D;
-
     margin-right: 35px;
-}
-
-.tabs a.active{
-    color: #46A358;
-
-    font-weight: 700;
-
-    border-bottom: 2px solid #46A358;
 
     padding-bottom: 5px;
 }
 
+.tab.active{
+    color: #46A358;
+
+    border-bottom: 2px solid #46A358;
+
+    font-weight: 700;
+}
+
 .sort{
-    float: right;
+    display: inline-block;
 
     font-size: 15px;
 
-    color: #3D3D3D;
+    margin-left: 280px;
 }
 
-.cards{
+/* PRODUCTS */
+
+.products{
     font-size: 0;
 }
 
-.card{
-    width: 258px;
-
+.product-card{
     display: inline-block;
-
-    margin-right: 30px;
-
-}
-
-.card:nth-child(3n){
-    margin-right: 0;
-}
-
-.card-img{
-    width: 250px;
-    height: 250px;
+    vertical-align: top;
 
     background: #FBFBFB;
 
-    text-align: center;
+    padding: 20px;
 
-    line-height: 250px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
-.card-img img{
-    max-width: 190px;
-    max-height: 190px;
-
-    vertical-align: middle;
+.product-card:nth-child(3n){
+    margin-right: 0;
 }
 
-.card h4{
-    font-size: 16px;
-    font-weight: 400;
+.product-card img{
+    max-width: 180px;
+}
 
-    color: #3D3D3D;
+.product-name{
+    font-size: 15px;
 
     margin-top: 12px;
+    margin-bottom: 6px;
 }
 
-.card span{
-    display: block;
-
-    margin-top: 6px;
-
-    font-size: 18px;
-    font-weight: 700;
+.product-price{
+    font-size: 16px;
 
     color: #46A358;
+
+    font-weight: 700;
 }
+
+/* PAGINATION */
 
 .pagination{
     text-align: right;
 }
 
 .pagination a{
-    width: 35px;
-    height: 35px;
-
     display: inline-block;
 
-    line-height: 35px;
-
-    text-align: center;
-
-    text-decoration: none;
+    padding: 10px 14px;
 
     border: 1px solid #E5E5E5;
 
     border-radius: 4px;
 
-    margin-left: 10px;
+    margin-left: 8px;
 
-    font-size: 16px;
+    text-decoration: none;
 
     color: #3D3D3D;
+
+    font-size: 14px;
 }
 
-.pagination a.active{
+.pagination .active{
     background: #46A358;
 
-    border-color: #46A358;
+    color: #fff;
 
-    color: #FFFFFF;
+    border-color: #46A358;
 }
