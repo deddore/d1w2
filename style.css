@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cera Pro', sans-serif;
+    background: #ffffff;
+    color: #3d3d3d;
+}
+
+.container{
+    max-inline-size: 1200px;
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+/* OFFERS */
+
+.offers{
+    padding-block: 80px 120px;
+}
+
+.offers-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.offer-card{
+    background: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-block: 10px;
+    padding-inline: 25px;
+}
+
+.offer-card img{
+    block-size: 255px;
+    object-fit: contain;
+}
+
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.offer-text h3{
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.offer-text p{
+    color: #727272;
+    font-size: 14px;
+    line-height: 1.9;
+    padding-block: 12px 22px;
+}
+
+.offer-text button{
+    border: none;
+    background: #46a358;
+    color: #ffffff;
+    border-radius: 6px;
+    padding-block: 12px;
+    padding-inline: 28px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+.blog-title{
+    text-align: center;
+}
+
+.blog-title h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.blog-title p{
+    color: #727272;
+    font-size: 14px;
+    padding-block-start: 14px;
+}
+
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-block-start: 40px;
+}
+
+.blog-card{
+    background: #fbfbfb;
+    flex: 1;
+}
+
+.blog-card img{
+    inline-size: 100%;
+    block-size: 255px;
+    object-fit: cover;
+}
+
+.blog-info{
+    padding: 14px;
+}
+
+.blog-info span{
+    color: #46a358;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog-info h3{
+    font-size: 22px;
+    line-height: 1.3;
+    padding-block: 8px;
+}
+
+.blog-info p{
+    color: #727272;
+    font-size: 14px;
+    line-height: 1.8;
+    padding-block-end: 12px;
+}
+
+.blog-info a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 500;
+}
